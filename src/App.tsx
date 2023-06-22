@@ -12,7 +12,7 @@ import { useAppSelector } from "./redux/hooks";
 function App() {
   const { isLoading } = useAppSelector((state) => state.pokemons);
 
-  const asdasd = ""
+  const cuatro = ""
 
   return (
     <BrowserRouter>
