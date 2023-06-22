@@ -1,9 +1,12 @@
 import { FC, useState } from "react";
 import { BG_IMAGE_PAGINATION, ITEMS_PER_PAGE } from "../../constants";
+import { IPokemon } from "../../types/pokemons-responss";
 
 interface IPagination {
-  setItems: React.Dispatch<any>;
-  items: any;
+  setItems: React.Dispatch<React.SetStateAction<IPokemon[]>>;
+  items: {
+    results: IPokemon[];
+  };
 }
 
 const Pagination: FC<IPagination> = ({ setItems, items }) => {

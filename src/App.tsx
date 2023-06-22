@@ -1,5 +1,4 @@
 import {
-  BrowserRouter as Router,
   Routes,
   Route,
   BrowserRouter,
@@ -12,6 +11,8 @@ import { useAppSelector } from "./redux/hooks";
 
 function App() {
   const { isLoading } = useAppSelector((state) => state.pokemons);
+
+  const test = ''
 
   return (
     <BrowserRouter>
