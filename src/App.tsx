@@ -13,6 +13,11 @@ import { useAppSelector } from "./redux/hooks";
 function App() {
   const { isLoading } = useAppSelector((state) => state.pokemons);
 
+  const num = 0
+  if(num == 0){
+    console.log("XD")
+  }
+
   return (
     <BrowserRouter>
       {isLoading && <Loading />}
