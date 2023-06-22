@@ -1,4 +1,5 @@
-import React from 'react';
+// Comented by vercel filter, but is neccesary to testing
+// import React from 'react';
 import { FC } from 'react';
 import { IMoves } from '../../types/pokemons-responss';
 
