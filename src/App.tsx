@@ -12,8 +12,6 @@ import { useAppSelector } from "./redux/hooks";
 function App() {
   const { isLoading } = useAppSelector((state) => state.pokemons);
 
-  const cuatro = ""
-
   return (
     <BrowserRouter>
       {isLoading && <Loading />}
