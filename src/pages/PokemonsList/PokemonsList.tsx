@@ -1,4 +1,4 @@
-import { FC, useState, useEffect } from "react";
+import React, { FC, useState, useEffect } from "react";
 import { useFetch } from "../../hooks/useFetch";
 import { BASE_URL_POKEAPI, ITEMS_PER_PAGE } from "../../constants";
 import { IPokemon } from "../../types/pokemons-responss";
