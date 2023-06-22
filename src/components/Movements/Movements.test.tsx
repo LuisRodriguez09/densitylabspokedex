@@ -1,5 +1,6 @@
 
-import React from 'react';
+// Comented by vercel filter, but is neccesary to testing
+// import React from 'react';
 import { render } from '@testing-library/react';
 import Movements from './Movements';
 
