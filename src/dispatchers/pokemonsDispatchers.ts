@@ -8,8 +8,8 @@ export const getSinglePokemonInfo = (name: string) => async (dispatch: Dispatch)
         dispatch(setLoading(true))
         const response = await getSinglePokemon(name)
         dispatch(setCurrentPokemon(response.data))
-    } catch (error: any) {
-        console.log(error)
+    } catch (error) {
+        alert(error)
     } finally {
         dispatch(setLoading(false))
     }

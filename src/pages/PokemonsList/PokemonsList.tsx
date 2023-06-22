@@ -34,7 +34,7 @@ const PokemonsList: FC = () => {
     }
   };
 
-  const [items, setItems] = useState<any>([]);
+  const [items, setItems] = useState<IPokemon[]>([]);
 
   useEffect(() => {
     if (data?.results) {
